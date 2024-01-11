@@ -109,13 +109,11 @@ button, textarea, select, input[type="text"], input[type="password"], input[type
 button:not(.color-btn):hover, html input[type="button"]:hover, input[type="reset"]:hover,
 input[type="submit"]:hover, .meta-fav a:hover,.group-btn a.ms-play:hover,#gotop:hover,
 .fsub:hover,.fsub a:hover,.pm-menu a:hover {
-    background: #171717;
+    background: transparent;
     box-shadow: none;
 }
 
-button:active, input[type="button"]:active, input[type="submit"]:active {
-    box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.1);
-}
+
 
 input[type="text"], input[type="password"] {
     height: 40px;
